@@ -12,45 +12,48 @@ O projeto contempla testes automatizados, documentação de casos de teste manua
 - Identificar falhas funcionais e de usabilidade
 - Documentar cenários de teste e bugs encontrados
 - Aplicar boas práticas de automação E2E
-- Utilizar o padrão Page Object Model (POM)
 - Organizar testes e documentação de forma rastreável
 
 ---
 
-# Tecnologias Utilizadas
+# Como Executar o Projeto
 
-- JavaScript
-- Cypress
-- Node.js
-- Markdown
-- Git & GitHub
+## Pré-requisitos
+
+- Node.js instalado
+- Git instalado
 
 ---
 
-# Funcionalidades Testadas
+## Clonar o repositório
 
-## Login
+```bash
+git clone <url-do-repositorio>
+````
 
-- Login com credenciais válidas
-- Validação de credenciais inválidas
-- Validação de campos obrigatórios
-- Fluxo de recuperação de senha
+---
 
-## Dashboard
+## Instalar dependências
 
-- Controle de acesso
-- Expansão e recolhimento da sidebar
-- Acesso às funcionalidades do sistema
-- Menu de perfil do usuário
+```bash
+npm install
+```
 
-## Bancos de Dados
+---
 
-- Criação de registros
-- Exclusão de registros
-- Arquivamento de itens
-- Persistência de dados
-- Pesquisa e filtragem
-- Reset da listagem
+## Executar Cypress em modo interativo
+
+```bash
+npx cypress open
+```
+
+---
+
+## Executar testes em modo headless
+
+```bash
+npx cypress run
+```
 
 ---
 
@@ -92,55 +95,30 @@ desafio-colmeia-qa/
 
 ---
 
-# Padrões Aplicados
+# Funcionalidades Testadas
 
-- Page Object Model (POM)
-- Separação de responsabilidades
-- Organização modular dos testes
-- Uso de fixtures para massa de dados
-- Documentação versionada no repositório
-- Rastreabilidade entre casos de teste e bugs
+## Login
 
----
+* Login com credenciais válidas
+* Validação de credenciais inválidas
+* Validação de campos obrigatórios
+* Fluxo de recuperação de senha
 
-# Como Executar o Projeto
+## Dashboard
 
-## Pré-requisitos
+* Controle de acesso
+* Expansão e recolhimento da sidebar
+* Acesso às funcionalidades do sistema
+* Menu de perfil do usuário
 
-- Node.js instalado
-- Git instalado
+## Bancos de Dados
 
----
-
-## Clonar o repositório
-
-```bash
-git clone <url-do-repositorio>
-```
-
----
-
-## Instalar dependências
-
-```bash
-npm install
-```
-
----
-
-## Executar Cypress em modo interativo
-
-```bash
-npx cypress open
-```
-
----
-
-## Executar testes em modo headless
-
-```bash
-npx cypress run
-```
+* Criação de registros
+* Exclusão de registros
+* Arquivamento de itens
+* Persistência de dados
+* Pesquisa e filtragem
+* Reset da listagem
 
 ---
 
@@ -148,15 +126,15 @@ npx cypress run
 
 ## Casos de Teste
 
-- [Login](docs/casos-de-teste/login.md)
-- [Dashboard](docs/casos-de-teste/dashboard.md)
-- [Bancos de Dados](docs/casos-de-teste/database.md)
+* [Login](docs/casos-de-teste/login.md)
+* [Dashboard](docs/casos-de-teste/dashboard.md)
+* [Bancos de Dados](docs/casos-de-teste/database.md)
 
 ---
 
 ## Bug Reports
 
-- [Relatório de Bugs](docs/bug-reports/bug-report.md)
+* [Relatório de Bugs](docs/bug-reports/bug-report.md)
 
 ---
 
@@ -164,12 +142,12 @@ npx cypress run
 
 Durante a execução dos testes foram identificados bugs relacionados a:
 
-- Controle de acesso
-- Persistência de dados
-- Validação de campos
-- Fluxos incompletos
-- Componentes sem funcionalidade
-- Problemas de usabilidade
+* Controle de acesso
+* Persistência de dados
+* Validação de campos
+* Fluxos incompletos
+* Componentes sem funcionalidade
+* Problemas de usabilidade
 
 Todos os bugs documentados encontram-se em:
 
