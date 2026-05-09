@@ -28,7 +28,7 @@ O projeto contempla testes automatizados, documentação de casos de teste manua
 ## Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/angelo-gabs/desafio-colmeia-qa
 ````
 
 ---
@@ -122,20 +122,6 @@ desafio-colmeia-qa/
 
 ---
 
-# Documentação
-
-## Casos de Teste
-
-- [Login](docs/casos-de-testes/login.md)
-- [Dashboard](docs/casos-de-testes/dashboard.md)
-- [Bancos de Dados](docs/casos-de-testes/database.md)
-
-## Bug Reports
-
-- [Relatório de Bugs](docs/bug-reports/bug-report.md)
-
----
-
 # Bugs Identificados
 
 Durante a execução dos testes foram identificados bugs relacionados a:
@@ -147,11 +133,19 @@ Durante a execução dos testes foram identificados bugs relacionados a:
 * Componentes sem funcionalidade
 * Problemas de usabilidade
 
-Todos os bugs documentados encontram-se em:
+---
 
-```txt
-docs/bug-reports/bug-report.md
-```
+# Documentação
+
+## Casos de Teste
+
+- [Login](docs/casos-de-testes/login.md)
+- [Dashboard](docs/casos-de-testes/dashboard.md)
+- [Bancos de Dados](docs/casos-de-testes/database.md)
+
+## Bug Reports
+
+- [Relatório de Bugs](docs/bug-reports/bug-report.md)
 
 ---
 
