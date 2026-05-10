@@ -36,7 +36,7 @@ describe('Data Base - ColmeIA', () => {
       dataBasePage.clickSaveDataBaseItemButton()
 
       //dataBasePage.checkItemNameRequiredMsg()
-      //Bug - 
+      //Bug 06 - Após múltiplas tentativas, o sistema cria um banco de dados sem nome
     })
 
   })
@@ -52,7 +52,7 @@ describe('Data Base - ColmeIA', () => {
       dataBasePage.refreshPage()
 
       //dataBasePage.validateDatabaseItemCreated(dataBaseNewItem)
-      //Bug - 
+      //Bug 07 - Item desaparece após atualização
     })
 
     it('CT05 - Deve filtrar banco de dados existente pela barra de pesquisa', () => {
@@ -70,7 +70,7 @@ describe('Data Base - ColmeIA', () => {
       dataBasePage.clickStoredDatabaseButton()
 
       //dataBasePage.validateDatabaseItemCreated(dataBaseNewItem)
-      //Bug - 
+      //Bug 08 - Item é removido da listagem principal, porém não aparece na seção de arquivados
     })
 
     it('CT08 - Deve apagar banco de dados da listagem', () => {
